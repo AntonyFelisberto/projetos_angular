@@ -1,0 +1,21 @@
+<mat-card>
+  <mat-card-title>Deletar Produto</mat-card-title>
+
+  <form>
+    <mat-form-field>
+      <input matInput type="text" placeholder="Nome" name="name" [(ngModel)]="product.name" readonly>
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput type="number" placeholder="preço" name="price" [(ngModel)]="product.price" readonly>
+    </mat-form-field>
+  </form>
+
+  <button mat-raised-button (click)="deleteProduct()">
+    Deletar Produto
+  </button>
+
+  <button mat-raised-button (click)="cancel()">
+    Cancel
+  </button>
+
+</mat-card>

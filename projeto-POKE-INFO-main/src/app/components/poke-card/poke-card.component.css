@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  font-family: 'Press Start 2P', cursive;
+  color: rgb(255, 255, 255);
+  text-shadow: -4px -4px 0 #000, 4px -4px 0 #000, -4px 4px 0 #000,
+    4px 4px 0 #000;
+}
+
+.inline {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Container */
+.card-box {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 20px 10px;
+  background: rgb(0, 0, 0);
+  background-image: linear-gradient(
+      rgba(198, 198, 198, 0.344) 0.1em,
+      transparent 0.1em
+    ),
+    linear-gradient(90deg, rgba(187, 187, 187, 0.331) 0.1em, transparent 0.1em);
+  background-size: 1em 1em;
+}
+
+/* Sections */
+.card-box__picture {
+  background: rgb(23, 20, 240);
+  background: linear-gradient(
+    180deg,
+    rgba(23, 20, 240, 0.8547794117647058) 43%,
+    rgba(5, 13, 7, 0.9136029411764706) 81%
+  );
+  width: 50px;
+  height: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+.card-box__stats {
+  width: 100%;
+  margin-left: 30px;
+}
+
+/* Section ::: STATS */
+.card-box_stats__name {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.card-box_stats__name > * {
+  margin-right: 10px;
+}
+
+.card-box_stats__HP {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card-box_stats__HP > * {
+  margin-right: 10px;
+}
+
+/* efeitos */
+.hp-bar {
+  border: 3px solid black;
+  border-radius: 80px;
+  height: 20px;
+  width: 60%;
+  background: rgb(197, 192, 37);
+  background: linear-gradient(
+    82deg,
+    rgba(115, 159, 33, 1) 43%,
+    rgba(197, 192, 37, 1) 81%
+  );
+}

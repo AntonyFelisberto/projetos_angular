@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "caneta",
+      "price": 1
+    },
+    {
+      "id": 4,
+      "name": "carta",
+      "price": 30
+    },
+    {
+      "name": "test",
+      "price": 521,
+      "id": 5
+    }
+  ]
+}

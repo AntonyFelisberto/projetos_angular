@@ -1,0 +1,6 @@
+CRIAR BACKEND 
+	npm init -y
+INICIALIZAR SERVER
+	npm i json-server
+INICIAR 
+	npm start

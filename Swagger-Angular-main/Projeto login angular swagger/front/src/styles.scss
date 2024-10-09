@@ -1,0 +1,21 @@
+$background-color: #252525 !important;
+$font-color: #fff !important;
+
+body{
+    background-image: url("./assets/zentorno.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.95;
+}
+.p-card{
+    background-color: $background-color;
+    color: $font-color;
+}
+.card{
+    border-style: none;
+}
+.textCenter{
+    text-align: center;
+}
+
