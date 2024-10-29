@@ -1,0 +1,16 @@
+
+<div class="container">
+    <h1><a href="" class="logo">{{hero.name}}</a></h1>
+    <img src="{{hero.thumbnail}}" alt="{{hero.name}}" id="imagem">
+
+    
+    <p *ngIf="hero.description" id="sizeLetter">{{hero.description}}</p>
+    <p *ngIf="!hero.description" id="sizeLetter">Sem descrições encontradas</p>
+
+    <div>
+        <app-character-card [title]="'COMICS'" [card]="hero.comics ? hero.comics:[]"></app-character-card>
+        <app-character-card [title]="'SERIES'" [card]="hero.series ? hero.series:[]"></app-character-card>
+        <app-character-card [title]="'STORIES'" [card]="hero.stories ? hero.stories:[]"></app-character-card>
+        <app-character-card [title]="'EVENTS'" [card]="hero.events ? hero.events:[]"></app-character-card>
+    </div>
+</div>

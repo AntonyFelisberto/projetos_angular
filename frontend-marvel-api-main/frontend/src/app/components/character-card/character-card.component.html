@@ -1,0 +1,11 @@
+<div *ngIf="card && card.length > 0">
+    <h2>{{title}}</h2>
+    <div class="cards" *ngFor="let information of card">
+        <div class="image">
+            <img src="../../../assets/marvel.jpg" alt="{{information.name}}">
+        </div>
+        <div class="des">
+            <h3 class="sizeInformation">{{information.name}}</h3>
+        </div>
+    </div>
+</div>

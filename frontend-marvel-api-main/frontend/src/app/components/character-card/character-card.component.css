@@ -1,0 +1,101 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.image img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.des {
+    text-align: center;
+    padding: 5px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    margin-top: 30px;
+    font-size: 2.50vh;
+    text-transform: uppercase;
+    font-family: 'Gambetta', serif;
+    margin-bottom: 0.8rem;
+    color: rgb(170, 219, 238);
+    outline: none;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 5px;
+    word-wrap: break-word;
+    font-size: 1.55vh;
+}
+
+img{
+    top: 0;
+}
+
+@media screen and (min-width: 1000px) {
+    .cards {
+        width: 20%;
+        display: inline-block;
+        background-color: gray;
+        border-radius: 5px;
+        margin: 40px;
+        box-shadow: 2px 2px 10px black;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .cards {
+        width: 20%;
+        display: inline-block;
+        background-color: gray;
+        border-radius: 5px;
+        margin: 40px;
+        box-shadow: 2px 2px 10px black;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .cards {
+        width: 20%;
+        display: inline-block;
+        background-color: gray;
+        border-radius: 5px;
+        margin: 40px;
+        box-shadow: 2px 2px 10px black;
+    }
+}
+
+@media screen and (max-width: 574px) {
+    .cards {
+        width: 20%;
+        display: inline-block;
+        background-color: gray;
+        border-radius: 5px;
+        margin: 40px;
+        box-shadow: 2px 2px 10px black;
+    }
+
+    h2 {
+        margin-top: 30px;
+        font-size: 2vh;
+        text-transform: uppercase;
+        font-family: 'Gambetta', serif;
+        margin-bottom: 0.8rem;
+        color: rgb(170, 219, 238);
+        outline: none;
+        text-align: center;
+    }
+}
